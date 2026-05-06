@@ -12,10 +12,10 @@ class Defaults:
     thickness_microns: float = 120.0
     powder_price_area: float = 180.0      # R/kg (Option 1)
     powder_price_kg: float = 130.0        # R/kg (Option 2)
-    market_min_m2_area: float = 210.0     # R/m² min
-    market_price_m2_area: float = 250.0   # R/m² max/standard
-    market_min_m2_kg: float = 225.0       # R/m² min (kg method)
-    market_price_m2_kg: float = 250.0     # R/m² max/standard (kg method)
+    market_min_m2_area: float = 230.0     # R/m² min
+    market_price_m2_area: float = 270.0   # R/m² max/standard
+    market_min_m2_kg: float = 230.0       # R/m² min (kg method)
+    market_price_m2_kg: float = 270.0     # R/m² max/standard (kg method)
     density_steel: float = 8000.0         # kg/m³ (as used in your sheet)
 
 D = Defaults()
